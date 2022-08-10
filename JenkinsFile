@@ -27,5 +27,10 @@ pipeline {
                 echo 'Delivered'
             }
         }
+        stage('Got It') {
+            steps {
+                echo 'Got It'
+            }
+        }
     }
 }
